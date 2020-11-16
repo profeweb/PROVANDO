@@ -2,8 +2,9 @@
 // Establir les zones comunes entre pantalles.
 
 void setup(){
-  //fullScreen();                       // Pantalla completa
-  size(1800, 1080);                 // Pantalla HD
+  fullScreen();                       // Pantalla completa
+  //size(1800, 1080);                 // Pantalla HD
+  smooth();
   noStroke();                         // Sense bordes
   textAlign(CENTER); textSize(18);   // Alineació i mida del text
 }
